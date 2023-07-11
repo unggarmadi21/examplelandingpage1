@@ -1,0 +1,170 @@
+body {
+    font-family: 'Agency FB';
+}
+
+.navbar {
+    background-color: #17a2b8;
+    text-align: center;
+
+}
+
+.nav-item {
+    margin-right: 20px;
+    font-weight: 200;
+
+}
+
+.nav-link {
+    font-weight: 400;
+}
+
+.carousel-inner {
+    height: 500px;
+    background-color: #17a2b8;
+}
+
+.btn-warning {
+    margin-top: 5px;
+    margin-block: 5px;
+    width: auto;
+    height: 40px !important;
+    width: 80px;
+    text-align: center;
+    position: right;
+
+
+}
+
+
+.figure-caption h3,
+p {
+    color: rgb(255, 233, 233) !important;
+}
+
+.jumbotron {
+    background-image: url(img/comp.jpg);
+}
+
+.jumbotron h1,
+p {
+    text-align: center;
+}
+
+.jumbotron-fluid {
+    background-image: url(img/smartp.jpg);
+    height: 550px;
+
+}
+
+.jumbotron img {
+    width: 500px;
+}
+
+.container-fluid h1,
+p {
+    color: white;
+}
+
+.container h5 {
+    color: gold;
+}
+
+.img-jum {
+    width: 200px;
+    height: 400px;
+    margin-top: 8px;
+}
+
+
+.rounded-circle {
+    size: 8px;
+
+}
+
+.navbar-brand {
+    color: orange !important;
+    transition-timing-function: initial;
+}
+
+.btn-primary {
+    margin-top: 5px;
+
+}
+
+.scroll-to-top:focus,
+.scroll-to-top:hover {
+    color: darkblue !important;
+}
+
+.scroll-to-top:hover {
+    background: #5a5c69 !important;
+}
+
+.scroll-to-top i {
+    font-weight: 800 !important;
+}
+
+.scroll-to-top {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    display: none;
+    width: 2.75rem;
+    height: 2.75rem;
+    text-align: center;
+    color: white;
+    background: fade-out(gray, .5);
+    line-height: 46px;
+}
+
+.brands .img-fluid {
+    opacity: 0;
+    transform: translate(0, -20px);
+    transition: 0.5s;
+}
+
+.brands .img-fluid.run {
+    opacity: 1;
+    transition: 0, 0;
+}
+
+.figure .figure-img {
+    opacity: 0;
+    transform: translate(0, -20px);
+    transition: 0.3s;
+}
+
+.figure .figure-img.run {
+    opacity: 1;
+    transition: 0, 0;
+}
+
+/* 
+.justify-content-left {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+} */
+
+/* 
+.figure-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* opacity: 0; 
+transition: opacity 0.3s;
+
+}
+
+/* .figure-img:hover {
+    opacity: 1px;
+}
+
+*/
